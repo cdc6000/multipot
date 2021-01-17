@@ -35,7 +35,7 @@ byte pin_buzzer_plus = A1;
 uint32_t now = 0;
 uint32_t timer[] = {0, 0, 0, 0, 0, 0, 0};
 
-char charArray[] = {
+byte charArray[] = {
   // TBCADEFG
   B01111110,
   B01100000,
